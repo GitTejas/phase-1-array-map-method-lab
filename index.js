@@ -17,8 +17,8 @@ const titleCased = () => {
      let result = "";
      for (let i = 0; i < titles.length; i++) {
        titles[i] = titles[i][0].toUpperCase() + titles[i].substr(1);
-       result += titles[i]+" "                                   };
-     
+       result += titles[i]+" "                                   
+      };
      return result.slice(0,-1);
  });
 }
